@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vacancies",
+  "info": {
+    "singularName": "vacancy",
+    "pluralName": "vacancies",
+    "displayName": "Vacancy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "job_name": {
+      "type": "string"
+    },
+    "organization_name": {
+      "type": "string"
+    },
+    "working_days": {
+      "type": "string"
+    },
+    "working_hours": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "salary": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "biginteger"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "apply_count": {
+      "type": "integer"
+    }
+  }
+}
